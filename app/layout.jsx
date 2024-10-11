@@ -1,4 +1,5 @@
 import "@/assets/styles/globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
     title: "Hausy | Find Your Best Home",
@@ -8,7 +9,8 @@ const MainLayout = ({ children }) => {
     return (
         <html>
             <body>
-                <div>{children}</div>
+                <Navbar />
+                <main>{children}</main>
             </body>
         </html>
     );
