@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    // next.config.js
+    images: {
+        domains: ["juyibhfuuvdjptkpenxp.supabase.co"],
+    },
+};
 
 export default nextConfig;

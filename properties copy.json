@@ -13,7 +13,7 @@
         "beds": 2,
         "baths": 1,
         "square_feet": 1500,
-        "amenities": [
+        "amenities": {"data":[
             "Wifi",
             "Full kitchen",
             "Washer & Dryer",
@@ -28,7 +28,7 @@
             "Balcony/Patio",
             "Smart TV",
             "Coffee Maker"
-        ],
+        ]},
         "rates": {
             "weekly": 1100,
             "monthly": 4200
@@ -38,10 +38,10 @@
             "email": "john@gmail.com",
             "phone": "617-555-5555"
         },
-        "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+        "images": {"data":["a1.jpg", "a2.jpg", "a3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-01T00:00:00.000Z",
-        "updatedAt": "2024-01-01T00:00:00.000Z"
+        "created_at": "2024-01-01T00:00:00.000Z",
+        "updated_at": "2024-01-01T00:00:00.000Z"
     },
     {
         "owner": "1",
@@ -57,10 +57,10 @@
         "beds": 1,
         "baths": 1,
         "square_feet": 1800,
-        "amenities": [
+        "amenities": {"data":[
             "Wifi",
             "Full kitchen",
-            "Washer & Dryer",
+            "Washer Dryer",
             "Free Parking",
             "Hot Tub",
             "24/7 Security",
@@ -71,7 +71,7 @@
             "Air Conditioning",
             "Smart TV",
             "Outdoor Grill/BBQ"
-        ],
+        ]},
         "rates": {
             "weekly": 1000,
             "monthly": 4000
@@ -81,10 +81,10 @@
             "email": "jane@gmail.com",
             "phone": "212-555-5555"
         },
-        "images": ["b1.jpg", "b2.jpg", "b3.jpg"],
+        "images": {"data":["b1.jpg", "b2.jpg", "b3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-02T00:00:00.000Z",
-        "updatedAt": "2024-01-02T00:00:00.000Z"
+        "created_at": "2024-01-02T00:00:00.000Z",
+        "updated_at": "2024-01-02T00:00:00.000Z"
     },
     {
         "owner": "2",
@@ -100,7 +100,7 @@
         "beds": 3,
         "baths": 2,
         "square_feet": 2200,
-        "amenities": [
+        "amenities": {"data":[
             "Wifi",
             "Full kitchen",
             "Washer & Dryer",
@@ -115,7 +115,7 @@
             "Air Conditioning",
             "Smart TV",
             "Coffee Maker"
-        ],
+        ]},
         "rates": {
             "nightly": 200,
             "weekly": 750,
@@ -126,10 +126,10 @@
             "email": "david@gmail.com",
             "phone": "213-555-5555"
         },
-        "images": ["c1.jpg", "c2.jpg", "c3.jpg"],
+        "images": {"data":["c1.jpg", "c2.jpg", "c3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-03T00:00:00.000Z",
-        "updatedAt": "2024-01-03T00:00:00.000Z"
+        "created_at": "2024-01-03T00:00:00.000Z",
+        "updated_at": "2024-01-03T00:00:00.000Z"
     },
     {
         "owner": "2",
@@ -145,12 +145,12 @@
         "beds": 1,
         "baths": 1,
         "square_feet": 900,
-        "amenities": [
+        "amenities": {"data":[
             "Fireplace",
             "Outdoor Grill/BBQ",
             "Balcony/Patio",
             "Coffee Maker"
-        ],
+        ]},
         "rates": {
             "weekly": 2000
         },
@@ -159,10 +159,10 @@
             "email": "emily@gmail.com",
             "phone": "512-555-5555"
         },
-        "images": ["d1.jpg", "d2.jpg", "d3.jpg"],
+        "images": {"data":["d1.jpg", "d2.jpg", "d3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-04T00:00:00.000Z",
-        "updatedAt": "2024-01-04T00:00:00.000Z"
+        "created_at": "2024-01-04T00:00:00.000Z",
+        "updated_at": "2024-01-04T00:00:00.000Z"
     },
     {
         "owner": "3",
@@ -178,13 +178,13 @@
         "beds": 1,
         "baths": 1,
         "square_feet": 900,
-        "amenities": [
+        "amenities": {"data":[
             "High-Speed Internet",
             "Smart TV",
             "Air Conditioning",
             "Gym/Fitness Center",
             "Outdoor Grill/BBQ"
-        ],
+        ]},
         "rates": {
             "weekly": 1100,
             "monthly": 4200
@@ -194,10 +194,10 @@
             "email": "michael@gmail.com",
             "phone": "312-555-5555"
         },
-        "images": ["e1.jpg", "e2.jpg", "e3.jpg"],
+        "images": {"data":["e1.jpg", "e2.jpg", "e3.jpg"]},
         "is_featured": true,
-        "createdAt": "2024-01-05T00:00:00.000Z",
-        "updatedAt": "2024-01-05T00:00:00.000Z"
+        "created_at": "2024-01-05T00:00:00.000Z",
+        "updated_at": "2024-01-05T00:00:00.000Z"
     },
     {
         "owner": "3",
@@ -213,13 +213,13 @@
         "beds": 4,
         "baths": 3,
         "square_feet": 2800,
-        "amenities": [
+        "amenities": {"data":[
             "Beach Access",
             "Swimming Pool",
             "Balcony/Patio",
             "Smart TV",
             "Outdoor Grill/BBQ"
-        ],
+        ]},
         "rates": {
             "nightly": 500,
             "weekly": 2500
@@ -229,10 +229,10 @@
             "email": "sarah@gmail.com",
             "phone": "305-555-5555"
         },
-        "images": ["f1.jpg", "f2.jpg", "f3.jpg"],
+        "images": {"data":["f1.jpg", "f2.jpg", "f3.jpg"]},
         "is_featured": true,
-        "createdAt": "2024-01-06T00:00:00.000Z",
-        "updatedAt": "2024-01-06T00:00:00.000Z"
+        "created_at": "2024-01-06T00:00:00.000Z",
+        "updated_at": "2024-01-06T00:00:00.000Z"
     },
     {
         "owner": "4",
@@ -248,12 +248,12 @@
         "beds": 2,
         "baths": 1,
         "square_feet": 1100,
-        "amenities": [
+        "amenities": {"data":[
             "Fireplace",
             "Outdoor Grill/BBQ",
             "Hiking Trails Access",
             "Pet-Friendly"
-        ],
+        ]},
         "rates": {
             "nightly": 475,
             "weekly": 2000
@@ -263,10 +263,10 @@
             "email": "robert@gmail.com",
             "phone": "303-555-5555"
         },
-        "images": ["g1.jpg", "g2.jpg", "g3.jpg"],
+        "images": {"data":["g1.jpg", "g2.jpg", "g3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-07T00:00:00.000Z",
-        "updatedAt": "2024-01-07T00:00:00.000Z"
+        "created_at": "2024-01-07T00:00:00.000Z",
+        "updated_at": "2024-01-07T00:00:00.000Z"
     },
     {
         "owner": "5",
@@ -282,12 +282,12 @@
         "beds": 3,
         "baths": 2,
         "square_feet": 1800,
-        "amenities": [
+        "amenities": {"data":[
             "Ski Equipment Storage",
             "Fireplace",
             "Balcony/Patio",
             "Smart TV"
-        ],
+        ]},
         "rates": {
             "nightly": 300,
             "weekly": 1100
@@ -297,10 +297,10 @@
             "email": "jennifer@gmail.com",
             "phone": "970-555-5555"
         },
-        "images": ["h1.jpg", "h2.jpg", "h3.jpg"],
+        "images": {"data":["h1.jpg", "h2.jpg", "h3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-08T00:00:00.000Z",
-        "updatedAt": "2024-01-08T00:00:00.000Z"
+        "created_at": "2024-01-08T00:00:00.000Z",
+        "updated_at": "2024-01-08T00:00:00.000Z"
     },
     {
         "owner": "6",
@@ -316,13 +316,13 @@
         "beds": 4,
         "baths": 3,
         "square_feet": 2400,
-        "amenities": [
+        "amenities": {"data":[
             "Mountain View",
             "Hiking Trails Access",
             "Air Conditioning",
             "Smart TV",
             "Outdoor Grill/BBQ"
-        ],
+        ]},
         "rates": {
             "weekly": 1000,
             "monthly": 3800
@@ -332,10 +332,10 @@
             "email": "lisa@gmail.com",
             "phone": "303-555-5555"
         },
-        "images": ["i1.jpg", "i2.jpg", "i3.jpg"],
+        "images": {"data":["i1.jpg", "i2.jpg", "i3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-09T00:00:00.000Z",
-        "updatedAt": "2024-01-09T00:00:00.000Z"
+        "created_at": "2024-01-09T00:00:00.000Z",
+        "updated_at": "2024-01-09T00:00:00.000Z"
     },
     {
         "owner": "7",
@@ -351,12 +351,12 @@
         "beds": 2,
         "baths": 1,
         "square_feet": 1200,
-        "amenities": [
+        "amenities": {"data":[
             "High-Speed Internet",
             "Air Conditioning",
             "Smart TV",
             "Coffee Maker"
-        ],
+        ]},
         "rates": {
             "weekly": 550,
             "monthly": 2100
@@ -366,9 +366,9 @@
             "email": "matthew@gmail.com",
             "phone": "215-555-5555"
         },
-        "images": ["j1.jpg", "j2.jpg", "j3.jpg"],
+        "images": {"data":["j1.jpg", "j2.jpg", "j3.jpg"]},
         "is_featured": false,
-        "createdAt": "2024-01-10T00:00:00.000Z",
-        "updatedAt": "2024-01-10T00:00:00.000Z"
+        "created_at": "2024-01-10T00:00:00.000Z",
+        "updated_at": "2024-01-10T00:00:00.000Z"
     }
 ]
