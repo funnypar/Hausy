@@ -1,11 +1,9 @@
-import connectDb from "@/config/database";
-import Property from "@/models/Property";
+import { getAllProperties } from "@/utils/services/getAllProperties";
 
 // GET /api/properties
 export const GET = async () => {
     try {
-        await connectDb();
-        const properties = Property.find({});
+        const properties = await getAllProperties();
         return new Response(JSON.stringify(properties), { status: 200 });
     } catch (error) {
         console.log("Something went wrong...");
