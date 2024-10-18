@@ -55,6 +55,7 @@ const Navbar = () => {
                                 className="h-10 w-auto"
                                 src={Logo}
                                 alt="PropertyPulse"
+                                priority={true}
                             />
 
                             <span className="hidden md:block text-white text-2xl font-bold ml-2">
