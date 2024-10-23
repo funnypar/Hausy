@@ -189,8 +189,13 @@ const Navbar = () => {
                                         </span>
                                         <Image
                                             className="h-8 w-8 rounded-full"
-                                            src={ProfileDefault}
+                                            src={
+                                                session?.user?.image ||
+                                                ProfileDefault
+                                            }
                                             alt=""
+                                            width={40}
+                                            height={40}
                                         />
                                     </button>
                                 </div>
