@@ -1,7 +1,7 @@
 "use client";
 import Logo from "@/assets/images/logo-white.png";
 import ProfileDefault from "@/assets/images/profile.png";
-import { getProviders, signIn, useSession } from "next-auth/react";
+import { getProviders, signIn, signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -216,6 +216,9 @@ const Navbar = () => {
                                             role="menuitem"
                                             tabIndex="-1"
                                             id="user-menu-item-0"
+                                            onClick={() => {
+                                                setIsProfileOpen(false);
+                                            }}
                                         >
                                             Your Profile
                                         </Link>
@@ -225,10 +228,17 @@ const Navbar = () => {
                                             role="menuitem"
                                             tabIndex="-1"
                                             id="user-menu-item-2"
+                                            onClick={() => {
+                                                setIsProfileOpen(false);
+                                            }}
                                         >
                                             Saved Properties
                                         </Link>
                                         <button
+                                            onClick={() => {
+                                                setIsProfileOpen(false);
+                                                signOut();
+                                            }}
                                             className="block px-4 py-2 text-sm text-gray-700"
                                             role="menuitem"
                                             tabIndex="-1"
