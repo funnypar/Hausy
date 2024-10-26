@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
+    "cloudinary": "^2.5.1",
     "hausy": "file:",
     "next": "14.2.15",
     "next-auth": "^4.24.8",
