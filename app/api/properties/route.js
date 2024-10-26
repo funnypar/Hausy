@@ -93,8 +93,7 @@ export const POST = async (request) => {
 
         const { data, error } = await supabase
             .from("properties")
-            .insert([propertyObj])
-            .select();
+            .insert([propertyObj]);
 
         return new Response.redirect(
             `${process.env.NEXTAUTH_URL}/properties/${data.id}`
