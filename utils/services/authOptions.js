@@ -1,3 +1,4 @@
+import { createClient } from "@supabase/supabase-js";
 import GoogleProvider from "next-auth/providers/google";
 
 const supabaseUrl = "https://juyibhfuuvdjptkpenxp.supabase.co";
