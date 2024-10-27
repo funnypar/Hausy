@@ -62,7 +62,7 @@ export const POST = async (request) => {
                 email: datas.get("seller_info.email"),
                 phone: datas.get("seller_info.phone"),
             },
-            owner: userId,
+            user_id: userId,
         };
 
         // Upload Images to cloudnary

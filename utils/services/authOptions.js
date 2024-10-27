@@ -30,21 +30,24 @@ const authOptions = {
                 .select("*")
                 .eq("email", profile.email)
                 .single();
+
+            if (error) console.log(error);
+
             // 3. If not, then add user to database
             if (!user) {
                 // Truncate
                 const name = profile.name.slice(0, 20);
 
-                const { data, error } = await supabase
-                    .from("users")
-                    .insert([
-                        {
-                            email: profile.email,
-                            username: name,
-                            image: profile.image,
-                        },
-                    ])
-                    .select();
+                const { data, error } = await supabase.from("users").insert([
+                    {
+                        email: profile.email,
+                        username: name,
+                        image: profile.image,
+                        bookmarks: [],
+                    },
+                ]);
+
+                if (error) console.log(error);
             }
 
             // Return true
@@ -57,6 +60,9 @@ const authOptions = {
                 .select("*")
                 .eq("email", session.user.email)
                 .single();
+
+            if (error) console.log(error);
+
             // 2. Assign the user id to the session
             session.user.id = user.id.toString();
             // 3. return
